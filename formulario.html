@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+        <link href="estilo.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono pagina.ico">
+
+        <!--google fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Rancho&family=Satisfy&display=swap" rel="stylesheet">
+       
+</head>
+        
+
+        <body>
+                <header>
+                        <div class="container">
+                                
+                                <img src="IMG/BarraNav.png" alt="LogoVikingo" class="LogoVikingo">
+                            <h3>Valhalla Sporting Club</h3>
+                            <ul>
+                                                <a href="calendario.html">
+                                                 <li>Calendario</li>
+                                                 </a>
+                                                        <a href="index.html">
+                                                        <li>Inicio</li>
+                                                        </a>
+                                        
+
+                                                </ul>
+            
+            
+                        </div>
+                    </header>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>
+                        <b>FORMULARIO DE INSCRIPCIÓN</b>
+                </h1>
+                
+                
+                <div class="CentrarSector">
+                        <h3>Ficha y apta medica para clientes de Valhalla</h3>
+                </div>
+                
+                <div class="CentrarSector">
+                <p>Todos los asociados a nuestro polideportivo que concurran a nuestras clases para
+                        realizar alguna actividad </br>física deben completar esta ficha médica y presentar
+                        un apto médico <b>AL MENOS UNA VEZ POR AÑO.</b></p>
+                </div>
+                
+                <br>
+                <hr>
+                
+                        <section class="CentrarSector">
+                                <h2>1)¿Que actividad desea Realizar?</h2>
+
+                                <article>
+                                        <br> 
+                                        <span>
+                                                <label for="actividad">Seleccione el Tipo de Actividad</label>
+                                        <select name="selRango" id="ACTIVIDAD" required>
+                                                <option value="1">Futbol</option>
+                                                <option value="2">Basket</option>
+                                                <option value="3">Voley</option>
+                                                <option value="4">Natacion</option>
+                                                <option value="5">HandBall</option>
+                                                <option value="6">Boxeo</option>
+
+                                        </select>
+                                        <br>
+                                        <br>
+                                                </span>
+
+                                </article>
+
+
+                        </section>
+
+
+
+        <section class="CentrarSector">
+        <H2>2) Datos Personales </H2>
+<hr>
+
+<article class="CentrarSector">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre del asociado" required>
+</br>
+<br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido" id="Apellido" placeholder="Apellido del asociado" required/>
+</br>
+<br>
+        <label for="DNI">Documento DNI</label>
+        <input type="text" name="DNI" id="DNI" placeholder="Documento de Identidad" required/>
+
+
+</br>
+<br>
+        <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento" required/>
+<br/>
+<br>
+        <label for="Celular">Numero de Celular</label>
+        <input type="tel" name="celular" id="celular" placeholder="Numero de telefono" required/>
+</br>
+<br> 
+        <label for="Contacto de Emergencia">Contacto de Emergencia</label>
+        <input type="tel" name="Contacto de Emergencia" id="Contacto de Emergencia" placeholder="Numero de telefono" required/>
+        <label for="Relacion">Relación</label>
+        <select name="selRango" id="Relacion" required>
+        <option value="1">hermano/a</option>
+        <option value="2">padre/madre</option>
+        <option value="3">tutor</option>
+        <option value="4">amigo cercano</option>
+        <option value="5">Otro</option>
+        </select>
+         <input type="text" name="otro" id="otro" placeholder="Especificar 'Otro'">
+
+<br/>
+<br>
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email" placeholder="Dirección@correo.com" required/>
+<br/>
+<br>
+
+</article>
+
+                </section>
+       
+                <section class="CentrarSector" >
+        <hr>
+        
+        <!--Comienza el segundo encabezado-->
+                
+        <h2 title="Campo Obligatorio para seguir con el formulario">3) Datos Médicos</h2>
+        <hr>
+
+                        <article>
+        <label for="alergias">Alergias</label>
+        <input type="text" name="alergias" id="alergias" required/>
+<br/>
+<br>
+        <label for="Enfermedades">Enfermedades</label>
+        <input type="text" name="Enfermedades" id="Enfermedades" required/>
+<br/>
+<br>
+        <label for="Medicamentos">Medicamentos que toma regularmente</label>
+        <input type="text" name="Medicamentos" id="Medicamentos" required/>
+<br/>
+<br>
+        <label for="Intolerancia">Intolerancia/Alergia a Medicamentos</label>
+        <input type="text" name="Intolerancia" id="Intolerancia" required/>
+<br>
+<br/>
+        <label for="Cirugias">Cirugias Previas</label>
+        <input type="text" name="Cirugias" id="Cirugias" required/>
+<br>
+<br/>
+        <label for="Discapacidad">¿Posee alguna Discapacidad?</label>
+        <input type="text" name="Discapacidad" id="Discapacidad" required/>
+<br>
+<br/>
+        <label for="Observaciones">Otras Observaciones</label>
+        <input type="text" name="Observaciones" id="Observaciones" required/>
+<br>
+<br/>
+        </article>
+                </section>
+
+<!--  
+          <section class="CentrarSector" >
+<hr>
+        <h2>Apto Médico</h2>
+<hr>
+                <article>
+        <p>Una vez completado ambos Formularios, se deberá adjuntar el apta médico a traves de nuestra página en el siguiente archivo.
+        <b>La fecha límite para adjuntar el archivo de Apto médico es 23/04/2023. </b> </p>
+<br>
+        <label for="Apto Medico">Apto Médico</label>
+        <input type="file" name="Apto Medico" id="Apto Medico" required/>
+<br>
+        
+                <span>
+        <label for="Opcion">Elegir mètodo de entrega de Apto mèdico</label>
+        <br>
+        <label for="Opcion">Entregar Presencialmente</label>
+        <input type="radio" value="Entregar Presencialmente" value="Entregar Virtualmente">
+        <label for="Opcion">Entregar Por Correo</label>
+        <input type="radio" value="Entregar Presencialmente" value="Entregar Virtualmente">
+
+                </span>
+                
+<br>
+<br>
+                </article>
+          </section>
+-->
+                <section class="CentrarSector" >
+<hr>
+        <h2>4) Privacidad De Datos Personales</h2>
+<hr>
+           
+         <article>
+        
+        
+        <p>De acuerdo con la <b>Ley de Datos Personales</b>, sus datos serán tratados en forma confidencial y utilizados 
+        únicamente para los fines establecidos en este formulario. Los datos <b>NO</b> serán transferidos 
+        ni compartidos con terceros sin su consentimiento previo.</p>
+        
+       
+  
+
+        <input type="checkbox" name="Terminos y Condiciones" id="Terminos y Condiciones" required/>
+        <label for="Acepto terminos">He leído y acepto el aviso de privacidad de Datos Personales.</label>
+<br/>
+<br>
+<br>
+        <label for="Nombre y Apellido Adulto">Nombre y Apellido del adulto Responsable</label>
+        <input type="text" name="Nombre y Apellido Adulto" id="Nombre y Apellido Adulto" required/>
+<br/>
+<br>
+<br>
+<br>
+<br>
+        <label for="Enviar Formulario">Enviar Formulario</label>
+        
+                <a href="ConfirmarFormulario.html">
+        <input type="submit" name="Enviar Formulario" id="Enviar Formulario" required/>
+                </a>
+                
+                
+
+                </article>
+<hr>
+        </section>
+                     
+<footer>
+
+        <a href="https://www.instagram.com/munideavellaneda/" alt="Pagina oficial avellaneda" target="_blank">
+         <img src="IMG/instagram.png" alt="instagram" class="redes">        
+        </a>
+                <a href="https://www.facebook.com/municipalidad.avellaneda/?locale=es_LA"  target="_blank">
+                    <img src="IMG/facebook.png" alt="facebook" class="redes">
+            
+                </a>
+
+                        <a href="https://twitter.com/gestion_a" target="_blank">
+                        <img src="IMG/twitter.png" alt="twitter" class="redes" >
+                        </a>
+                
+                            <a href="https://www.youtube.com/channel/UCSZJdHt8BUIXVcKkS3C21BA" target="_blank">
+                                <img src="IMG/youtube.png" alt="youtube" class="redes">
+                                </a>
+       
+        <a href="https://chat.whatsapp.com/DlJPYMSxOVi8Qtumlh8WyZ" target="_blank">
+        <img src="IMG/whatsapp.png" alt="whatsapp" class="redes" >
+        </a>
+
+<a href="https://goo.gl/maps/gzzkprFtHMzc67iP7" target="_blank">
+        <img src="IMG/ubicacion.png" alt="ubicacion" class="redes" >
+    </a>
+        
+
+
+    </footer>
+   
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+          
+</body>
+</html>

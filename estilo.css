@@ -1,0 +1,270 @@
+html, body, header{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: large;
+
+}
+.LogoVikingo{
+    width: 100px;
+    height: 100px;
+    
+    /*border-radius: 10px;
+    border-radius: 20%;
+    box-shadow: 10px 5px 10px;
+    color: rgba(33, 121, 33, 0.7);*/     
+    
+}
+body{
+    background-color: rgb(79, 192, 79);
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(19, 143, 3);
+    position:absolute;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(49, 160, 49);
+    position: fixed;
+}
+
+
+h2{
+    font-family: 'Satisfy', cursive;
+}
+
+h3{
+    font-family: 'Anton', sans-serif;
+    padding: 1em;
+    color: rgb(212, 49, 49);
+    letter-spacing: 3px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Rancho', cursive;
+
+    
+}
+
+hr{
+    border-color: greenyellow;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+
+ul, li{
+    list-style: none;
+    display: flex;
+    padding: 3em;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: rgb(7, 12, 1);
+    border-radius: 20px;
+}
+li:hover{
+    background-color: rgb(0, 255, 42);
+    box-shadow: 3px 5px 5px green;
+}
+/* aca termina la barra de inicio (poner en todos los index) */
+
+
+
+article{
+    border: 9px ridge rgba(48, 148, 44, 0.562);
+    background-color:green;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 3%;
+    padding: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+input, select{
+    border-radius: 7px;
+    background-color: yellowgreen;
+
+}
+
+
+/*FOOTER*/
+.redes{
+    width: 60px;
+    height: 60px;
+    box-shadow: 3px 7px 10px green;
+    border: 4px dashed rgba(48, 148, 44, 0.562);
+    border-radius: 140%;
+    
+    
+}
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 150px;
+}
+
+
+/*TERMINA EL FOOTER*/
+
+
+/*Home sin nav bar*/
+#PolideportivoHome{  /*primera foto del home*/
+    width: 500px;
+    height: 300px;
+    border: 7px ridge rgba(48, 148, 44, 0.562);
+    border-radius: 20%;
+    box-shadow: 1px 1px 1px 6px rgb(0, 255, 42);
+}
+.CentrarSector{
+    text-align: center;    
+}
+
+.CentrarSector1{
+    border: 7px solid rgb(139, 233, 155);
+    border-radius: 3%;
+    background-color: rgb(14, 109, 14);
+    margin: auto;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin: 50px;
+
+
+}
+
+.ParrafoFoto1{
+    display: flex;
+}
+
+#PolideportivoHomeTexto, #PolideportivoHome{ 
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#PolideportivoHomeTexto{
+    font-size:x-large;
+}
+
+/*ACA COMIENZA LA PARTE DE ACTIVIDADES EN EL HOME*/
+
+#ActividadesLista, #ActFotos{
+    display: flex;
+    align-content: center;
+    justify-content: center;            
+    justify-content: space-around;
+    
+    margin-right: 200px;
+    margin-left: 200px;
+    
+    
+    
+}
+
+.Actividades, .ActividadesFotos:hover{
+    background-color: rgb(0, 255, 42); /*color de botos de actividades*/
+    box-shadow: 3px 5px 5px;
+    cursor: default;
+}
+
+.ActividadesFotos{
+    border: 3px solid rgba(48, 148, 44, 0.562);         /*COLOR PARA BORDES Y SOMBRAS*/
+    width: 100px;
+    height: 100px;
+    transition: none;
+    box-shadow: 3px 3px 3px 3px green;  
+
+}
+
+/*botones de calendario, inscripcion y conocenos mas (ACÁ ABAJO)*/
+
+.button{
+    background-color: rgb(0, 255, 42);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px; 
+    border-radius: 3px ;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: rgba(48, 148, 44, 0.562) ;
+}
+
+button:active{
+    background-color: chartreuse;
+    color: black;
+}
+
+.SectorIzquierda{
+    margin-right: 500px;
+}
+
+.SectorDerecha{
+    margin-left: 500px;
+}
+
+#SpanTitulo1{
+    text-align: left;
+    margin-left: 200px;
+    float: left;
+    
+}
+
+#SpanTitulo2{
+    text-align: right;
+    margin-right: 175px;
+    float: right;
+   
+}
+
+#PreguntasFrecuentes{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#FlechaVerde{
+    width: 90px;
+    height: 100px;
+}
+/* Calendario*/
+
+.calendario{
+    margin-left: 410px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	background-color: green;
+}
+
+td {
+	text-align: center;
+    background-color: rgba(48, 148, 44, 0.562);
+}
+
